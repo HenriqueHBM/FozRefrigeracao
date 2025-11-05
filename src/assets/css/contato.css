@@ -1,0 +1,46 @@
+#contato{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    background-color: #E6E4E6;
+}
+
+.titulo-contato{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.horarios-contato{
+    display: flex;
+    justify-content: center;
+}
+
+.lista{
+    color: #EEFCFD;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 45vh;
+    background-color: #1E576C;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.horarios-contato ul{
+    list-style-type: none; 
+    font-size: 25px;
+}
+
+.horarios-contato ul li {
+    margin-bottom: 5px;
+}
+
+.sep-section{
+    justify-content: center;
+}
+
+.txt-contato{
+    display: flex;
+    justify-content: center;
+}

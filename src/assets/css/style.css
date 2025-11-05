@@ -1,0 +1,93 @@
+@import url('sobre.css');
+@import url('consertamos.css');
+@import url('produtos.css');
+@import url('contato.css');
+@import url('footer.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 5vh;
+    margin-right: 7vh;
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-desktop ul li {
+    list-style-type: none; 
+    display: inline;
+}
+
+.menu-desktop *{
+    padding-inline: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+    padding-inline: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo h1{
+    margin: 10px;
+}
+
+.capa_principal{
+    display: flex;
+    flex-direction: column; /* título em cima, botões embaixo */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;  
+    min-height: 260px;
+    background-image: url('../../../public/images/capa.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#descricao_capa{
+    margin-bottom: 10px;
+}
+
+.btn-capa {
+    display: flex;
+}
+
+.btn-capa-principal{
+    color: #EEFCFD;
+    background-color: #25B7D3;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 10vh;
+    max-width: 15vh;
+    margin-inline: 15px;
+}
+
+
+.subtitulos{
+    font-size: 50px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: transform 200ms ease-in-out;
+}
+
+:root{
+    --azul-claro:#ADEBF4;
+    --azul-escurinho:#1E576C;
+}

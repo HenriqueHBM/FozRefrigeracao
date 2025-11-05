@@ -1,0 +1,40 @@
+#sobre{
+    display: flex;
+    padding: 50px 100px;
+}
+
+.img-sobre{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sobre img{
+    border-radius: 10px;
+}
+
+.txt-sobre{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao-sobre p {
+    width: 60%;
+}
+
+.descricao-sobre{
+    width: 100%;
+    font-size: 30px;
+}
+
+.titulo-sobre{
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 10px;
+    width: 100%;
+}
+

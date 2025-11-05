@@ -1,0 +1,37 @@
+
+header {
+    min-height: 5vh;
+    max-height: 6vh;
+    margin-right: 7vh;
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-desktop ul li {
+    list-style-type: none; 
+    display: inline;
+}
+
+.menu-desktop *{
+    padding-inline: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+    padding-inline: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo h1{
+    margin: 10px;
+}

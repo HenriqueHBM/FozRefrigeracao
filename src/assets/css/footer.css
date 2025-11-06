@@ -1,13 +1,23 @@
 footer{
     display: flex;
-    flex-direction: column;
-    padding: 50px 100px;
-    background-color: #1E576C;
-    width: 100%;
-    margin: 0;
-    padding: 2rem 0 0 0 ;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
+    background-color:var(--azul-escurinho);
+    color: var(--branco);
     align-items: center;
+    justify-content: space-around;
+
+    padding: 30px 0;
+}
+
+footer * {
+    list-style-type: none;
+}
+
+.img-list-contato{
+    display: flex; 
+    align-items: center;
+    margin-top: 5px;
+}
+
+.img-list-contato img {
+    margin-inline: 5px;
 }

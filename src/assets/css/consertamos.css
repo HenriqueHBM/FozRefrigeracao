@@ -21,7 +21,8 @@
 
 
 .card-consertamos{
-    width: 45vh;
+    width: 50vh;
+    max-width: 60vh;
     margin-bottom: 30px;
     background-color: white;
     border-radius: 20px;
@@ -29,7 +30,7 @@
 
 
 .img-card-consertamos{
-    
+    padding: 5px;
 }
 
 .img-card-consertamos img {

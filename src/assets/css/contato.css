@@ -45,3 +45,15 @@
     display: flex;
     justify-content: center;
 }
+
+
+.whatsapp a{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2FA61C;
+    border-radius: 5vh;
+    width:28-px;
+    height: 69px;
+}

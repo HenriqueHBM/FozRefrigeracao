@@ -1,20 +1,16 @@
 
 header {
-    min-height: 5vh;
-    max-height: 6vh;
-    margin-right: 7vh;
+    height: 80px;
     display: flex;
-    position: relative;
     width: 100%;
-    padding: 0;
     background-color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .menu-desktop ul li {
-    list-style-type: none; 
+    list-style-type: none;
     display: inline;
 }
 
@@ -25,7 +21,7 @@ header {
 }
 
 .logo {
-    display: flex; 
+    display: flex;
     align-items: center;
     padding-inline: 15px;
     color: black;

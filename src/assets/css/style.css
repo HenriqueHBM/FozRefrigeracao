@@ -16,15 +16,18 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50vh;  
+    height: 60vh;  
     min-height: 260px;
-    background-image: url('../../../public/images/capa.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.2)),url('../../../public/images/capa.png');
     background-size: cover;
     background-position: center;
 }
 
 #descricao_capa{
     margin-bottom: 10px;
+    color: #FAFFFF;
+      /* offset-x | offset-y | blur-radius | spread-radius | color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .btn-capa {

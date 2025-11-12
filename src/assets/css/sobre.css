@@ -3,27 +3,33 @@
     padding: 50px 100px;
 }
 
+.container-sobre{
+    display: flex;
+    justify-content: space-between;
+}
+
 .img-sobre{
-    width: 50%;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .img-sobre img{
+    border: 5px solid #1E576C;
     border-radius: 10px;
 }
 
 .txt-sobre{
+    flex: 1;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .descricao-sobre p {
-    width: 60%;
+    text-align: justify;
 }
 
 .descricao-sobre{

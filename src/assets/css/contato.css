@@ -22,7 +22,7 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    width: 30rem;
+    width: 31rem;
     background-color: #1E576C;
     padding: 20px;
     margin-bottom: 5px;
@@ -44,4 +44,17 @@
 .txt-contato{
     display: flex;
     justify-content: center;
+}
+
+
+.whatsapp a{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start: 2rem;
+    background-color: #2FA61C;
+    border-radius: 4vh;
+    width:280px;
+    height: 69px;
 }

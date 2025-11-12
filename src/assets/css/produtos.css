@@ -5,7 +5,7 @@
 }
 
 .titulo-produtos{
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .container-produtos{
@@ -22,8 +22,9 @@
     border-radius: 20px;
     padding: 25px;
     height: 20vh;
+    max-width: 175vh;
+    font-size: larger;
 }
-
 
 .img-card-produtos img {
     height: 20vh;

@@ -3,11 +3,15 @@ footer{
     background-color:var(--azul-escurinho);
     color: var(--branco);
     justify-content: space-between;
-    padding: 30px 15vh;
+    padding: 30px 13vh;
 }
 
 footer * {
     list-style-type: none;
+}
+
+.logo{
+    color:var(--branco);
 }
 
 .img-list-contato{
@@ -22,5 +26,11 @@ footer * {
 
 .texto_footer{
     line-height:4.5vh;
+    margin-inline-end: 7rem;
+}
 
+.texto_footer a{
+    
+    color: var(--branco);
+    text-decoration: none;
 }

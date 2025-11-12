@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     height: 20%;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .container-consertamos{
@@ -41,4 +41,5 @@
 
 .txt-card-consertamos{
     padding: 20px;
+    font-size: larger;
 }

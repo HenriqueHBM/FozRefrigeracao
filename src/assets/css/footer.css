@@ -1,7 +1,7 @@
 footer{
     display: flex;
     background-color:var(--azul-escurinho);
-    color: var(--branco);
+    color: var(--branco) !important;
     justify-content: space-between;
     padding: 30px 13vh;
 }
@@ -10,8 +10,16 @@ footer * {
     list-style-type: none;
 }
 
-.logo{
-    color:var(--branco);
+.logo-footer{
+    display: flex;
+    align-items: center;
+    padding-inline: 15px;
+    color:  var(--branco) !important;
+    text-decoration: none;
+}
+
+.logo-footer h1{
+    margin: 10px;
 }
 
 .img-list-contato{

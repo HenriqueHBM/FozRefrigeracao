@@ -11,12 +11,22 @@ header {
 
 .menu-desktop ul li {
     list-style-type: none;
-    display: inline;
+    display: inline-flex;
+    transition: all 0.3s ease;
 }
 
+.menu-desktop a{
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.menu-desktop a:hover{
+    transform: scale(1.2);
+    color: #EEFCFD;
+    background-color: #25B7D3;
+}
 .menu-desktop *{
     padding-inline: 15px;
-    color: black;
+    color: var(--preto);
     text-decoration: none;
 }
 
@@ -31,3 +41,4 @@ header {
 .logo h1{
     margin: 10px;
 }
+

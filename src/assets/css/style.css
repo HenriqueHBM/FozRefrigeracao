@@ -5,15 +5,15 @@
 @import url('produtos.css');
 @import url('contato.css');
 @import url('footer.css');
+html {
+    scroll-behavior: smooth;
+}
+
 
 * {
     margin: 0;
     padding: 0;
     font-family: "Merriweather Sans", sans-serif;
-}
-
-html{
-    scroll-behavior: smooth;
 }
 
 .capa_principal{

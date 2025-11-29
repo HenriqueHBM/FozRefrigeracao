@@ -12,6 +12,10 @@
     font-family: "Merriweather Sans", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .capa_principal{
     display: flex;
     flex-direction: column; /* título em cima, botões embaixo */

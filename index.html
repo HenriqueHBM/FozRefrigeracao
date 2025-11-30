@@ -10,7 +10,7 @@
 <body>
     <header>
 
-            <a href="/"  class="logo">
+            <a href="/"  class="logo" id="inicio">
                 <img src="/public/images/logo.png" alt="LogoPokemon" width="40vh">
                 <h1>Foz Refrigerações</h1>
             </a>
@@ -19,7 +19,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a class="txt-header-nav" href="">Inicio</a>
+                        <a class="txt-header-nav" href="#inicio">Inicio</a>
                     </li>
                     <li>
                         <a class="txt-header-nav" href="#sobre">Sobre</a>
@@ -37,14 +37,14 @@
             </nav>
         </section>
     </header>
-    <section class="capa_principal" id="inicio">
+    <section class="capa_principal">
         <h1 id="descricao_capa">
             Assistência tecnica especializada <br>
             em manutenção de refrigeradores
         </h1>
         <div class="btn-capa">
-            <a class="btn-capa-principal">Saiba Mais</a>
-            <a class="btn-capa-principal">Entre em Contato</a>
+            <a class="btn-capa-principal" href="#sobre">Saiba Mais</a>
+            <a class="btn-capa-principal" href="https://wa.me/5545999436409?text=Olá,%20quero%20fazer%20um%20orçamento" target="_blank">Entre em Contato</a>
         </div>
     </section>
     <main>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="card-consertamos card">
                     <div class="img-card-consertamos">
-                        <img src="/public/images/geladeira.png" alt="">
+                        <img src="/public/images/frigobar.jpg" alt="">
                     </div>
                     <div class="txt-card-consertamos">
                         <h3>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="card-consertamos card">
                     <div class="img-card-consertamos">
-                        <img src="/public/images/geladeira.png" alt="">
+                        <img src="/public/images/freezer.jpg" alt="">
                     </div>
                     <div class="txt-card-consertamos">
                         <h3>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="card-consertamos card">
                     <div class="img-card-consertamos">
-                        <img src="/public/images/geladeira.png" alt="">
+                        <img src="/public/images/ar1.jpg" alt="">
                     </div>
                     <div class="txt-card-consertamos">
                         <h3>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="card-consertamos card">
                     <div class="img-card-consertamos">
-                        <img src="/public/images/geladeira.png" alt="">
+                        <img src="/public/images/climaticador_de_ar.jpg" alt="">
                     </div>
                     <div class="txt-card-consertamos">
                         <h3>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="card-consertamos card">
                     <div class="img-card-consertamos">
-                        <img src="/public/images/geladeira.png" alt="">
+                        <img src="/public/images/microondas.jpg" alt="">
                     </div>
                     <div class="txt-card-consertamos">
                         <h3>
@@ -262,7 +262,7 @@ Inteligência Artificial ajusta o clima conforme seus hábitos e o ambiente
             <div class="txt-contato">
                 <div class="whatsapp">
                     <h4>Aproveite e já marque o seu horário agora mesmo!</h4>
-                    <a href="">
+                    <a href="https://wa.me/5545999436409?text=Olá,%20quero%20fazer%20um%20orçamento" target="_blank">
                         <img src="/public/icons/whatsapp.png" alt="WhatsApp-Contato" width="65vh" height="65vh">
                     </a>
                 </div>
@@ -271,7 +271,7 @@ Inteligência Artificial ajusta o clima conforme seus hábitos e o ambiente
     </main>
     <footer>
         <div>
-            <a href="/"  class="logo-footer">
+            <a href="#inicio"  class="logo-footer">
                 <img src="/public/images/logo.png" alt="Logo" width="55vh">
                 <h1>Foz Refrigerações</h1>
             </a>
@@ -279,13 +279,16 @@ Inteligência Artificial ajusta o clima conforme seus hábitos e o ambiente
         <div class="texto_footer">
             <h3>Contato</h3>
             <ul>
-                <li class="img-list-contato">
-                    <img src="/public/icons/whatsapp-outline.png" alt="WhatsApp-Contato" width="20vh" height="20vh"> (45) 99943-6409
-                </li>
-                <li class="img-list-contato">
-                    <img src="/public/icons/instagram-outline.png" alt="Instagram-Contato" width="20vh" height="20vh"> Instagram
-                </li>
-                <li></li>
+                <a  href="https://wa.me/5545999436409?text=Olá,%20quero%20fazer%20um%20orçamento" target="_blank">
+                    <li class="img-list-contato">
+                        <img src="/public/icons/whatsapp-outline.png" alt="WhatsApp-Contato" width="20vh" height="20vh"> (45) 99943-6409
+                    </li>
+                </a>
+                <a href="https://instagram.com/luisfelip444" target="_blank">
+                    <li class="img-list-contato">
+                        <img src="/public/icons/instagram-outline.png" alt="Instagram-Contato" width="20vh" height="20vh"> Instagram
+                    </li>
+                </a>
             </ul>
         </div>
 

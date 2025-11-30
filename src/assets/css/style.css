@@ -52,6 +52,7 @@ html {
     margin-inline: 15px;
     white-space: nowrap;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .btn-capa-principal:hover{

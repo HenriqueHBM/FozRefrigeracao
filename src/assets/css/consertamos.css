@@ -31,12 +31,17 @@
 
 .img-card-consertamos{
     padding: 5px;
+    margin-top:5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .img-card-consertamos img {
-    width: 100%;
+    width: 60%;
     height: 30vh;
     border-radius: 20px;
+
 }
 
 .txt-card-consertamos{

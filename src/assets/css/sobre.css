@@ -18,6 +18,8 @@
 .img-sobre img{
     border: 5px solid #1E576C;
     border-radius: 10px;
+    width: 70%;
+    margin-inline-end: 10rem;
 }
 
 .txt-sobre{

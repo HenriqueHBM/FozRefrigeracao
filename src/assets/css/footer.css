@@ -34,11 +34,15 @@ footer * {
 
 .texto_footer{
     line-height:4.5vh;
-    margin-inline-end: 7rem;
 }
 
 .texto_footer a{
     
     color: var(--branco);
     text-decoration: none;
+}
+
+#contato2{
+    
+    margin-inline-end: 15%;
 }

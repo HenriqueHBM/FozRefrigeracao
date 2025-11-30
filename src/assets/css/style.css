@@ -16,6 +16,7 @@ html {
     font-family: "Merriweather Sans", sans-serif;
 }
 
+
 .capa_principal{
     display: flex;
     flex-direction: column; /* título em cima, botões embaixo */
